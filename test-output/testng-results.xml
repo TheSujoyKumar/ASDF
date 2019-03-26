@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14807" started-at="2019-03-16T17:18:47Z" finished-at="2019-03-16T17:19:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14807" started-at="2019-03-16T17:18:47Z" finished-at="2019-03-16T17:19:02Z">
+      <class name="pack4.LaunchBrowser">
+        <test-method status="PASS" signature="testBaseBefore(org.testng.ITestContext)[pri:0, instance:pack4.LaunchBrowser@1ca3b418]" name="testBaseBefore" is-config="true" duration-ms="9239" started-at="2019-03-16T17:18:47Z" finished-at="2019-03-16T17:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e0f7aad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseBefore -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:pack4.LaunchBrowser@1ca3b418]" name="launch" duration-ms="5522" started-at="2019-03-16T17:18:56Z" finished-at="2019-03-16T17:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- pack4.LaunchBrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9343" started-at="2019-03-23T04:57:06Z" finished-at="2019-03-23T04:57:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9343" started-at="2019-03-23T04:57:06Z" finished-at="2019-03-23T04:57:16Z">
+      <class name="com.gs.selenium.testcases.LoginTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.gs.selenium.testcases.LoginTest@4961f6af]" name="login" duration-ms="8592" started-at="2019-03-23T04:57:06Z" data-provider="data-provider" finished-at="2019-03-23T04:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gs.selenium.testcases.LoginTest@4961f6af]" name="tearDown" is-config="true" duration-ms="707" started-at="2019-03-23T04:57:15Z" finished-at="2019-03-23T04:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gs.selenium.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
