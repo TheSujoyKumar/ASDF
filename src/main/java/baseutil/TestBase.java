@@ -7,10 +7,12 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utility.ReportManager;
 
 public class TestBase {
@@ -29,8 +31,13 @@ public class TestBase {
 	 * This method will launch browser.
 	 */
 	public void launchBrowser() {
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\browserdrivers\\chromedriver.exe");
-		driver = new ChromeDriver();
+		/*
+		 * System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+
+		 * "\\src\\test\\resources\\browserdrivers\\chromedriver.exe"); driver = new
+		 * ChromeDriver();
+		 */
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
 		LOG.info("Browser instance created");
 		driver.manage().window().maximize();
 		LOG.info("Browser Maximized");
